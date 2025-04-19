@@ -1,0 +1,1145 @@
+{
+    "project_info": {
+        "total_tasks": 50,
+        "phases": [
+            "Planning",
+            "Requirements",
+            "Design",
+            "Implementation",
+            "Testing",
+            "Documentation"
+        ]
+    },
+    "tasks": {
+        "T01": {
+            "name": "Planning Task 1",
+            "estimated_time": 2,
+            "dependencies": [],
+            "cognitive_cost": 43,
+            "deadline": 7,
+            "skill_requirements": {
+                "analysis": 0.6068531135595073,
+                "writing": 0.6640735505042707
+            },
+            "combination_potential": [
+                "T02",
+                "T03",
+                "T04",
+                "T05"
+            ]
+        },
+        "T02": {
+            "name": "Planning Task 2",
+            "estimated_time": 4,
+            "dependencies": [],
+            "cognitive_cost": 41,
+            "deadline": 5,
+            "skill_requirements": {
+                "analysis": 0.65480016333695,
+                "writing": 0.6412349919460143
+            },
+            "combination_potential": [
+                "T01",
+                "T03",
+                "T04",
+                "T05"
+            ]
+        },
+        "T03": {
+            "name": "Planning Task 3",
+            "estimated_time": 3,
+            "dependencies": [],
+            "cognitive_cost": 47,
+            "deadline": 7,
+            "skill_requirements": {
+                "analysis": 0.5346489804792341,
+                "writing": 0.5441294182770141
+            },
+            "combination_potential": [
+                "T01",
+                "T02",
+                "T04",
+                "T05"
+            ]
+        },
+        "T04": {
+            "name": "Planning Task 4",
+            "estimated_time": 2,
+            "dependencies": [],
+            "cognitive_cost": 41,
+            "deadline": 8,
+            "skill_requirements": {
+                "analysis": 0.5811404915504264,
+                "writing": 0.5822008815846523
+            },
+            "combination_potential": [
+                "T01",
+                "T02",
+                "T03",
+                "T05"
+            ]
+        },
+        "T05": {
+            "name": "Planning Task 5",
+            "estimated_time": 4,
+            "dependencies": [],
+            "cognitive_cost": 33,
+            "deadline": 10,
+            "skill_requirements": {
+                "analysis": 0.5461151110534415,
+                "writing": 0.6426890654321517
+            },
+            "combination_potential": [
+                "T01",
+                "T02",
+                "T03",
+                "T04"
+            ]
+        },
+        "T06": {
+            "name": "Requirements Task 6",
+            "estimated_time": 5,
+            "dependencies": [
+                "T04"
+            ],
+            "cognitive_cost": 45,
+            "deadline": 15,
+            "skill_requirements": {
+                "analysis": 0.5478876491918805,
+                "writing": 0.6729293269756059
+            },
+            "combination_potential": [
+                "T07",
+                "T08",
+                "T09",
+                "T10",
+                "T11",
+                "T12",
+                "T13",
+                "T14",
+                "T15"
+            ]
+        },
+        "T07": {
+            "name": "Requirements Task 7",
+            "estimated_time": 4,
+            "dependencies": [
+                "T02"
+            ],
+            "cognitive_cost": 45,
+            "deadline": 20,
+            "skill_requirements": {
+                "analysis": 0.6756158115077336,
+                "writing": 0.5136582338231135
+            },
+            "combination_potential": [
+                "T06",
+                "T08",
+                "T09",
+                "T10",
+                "T11",
+                "T12",
+                "T13",
+                "T14",
+                "T15"
+            ]
+        },
+        "T08": {
+            "name": "Requirements Task 8",
+            "estimated_time": 3,
+            "dependencies": [
+                "T04"
+            ],
+            "cognitive_cost": 49,
+            "deadline": 15,
+            "skill_requirements": {
+                "analysis": 0.6460436101477167,
+                "writing": 0.5943563953866524
+            },
+            "combination_potential": [
+                "T06",
+                "T07",
+                "T09",
+                "T10",
+                "T11",
+                "T12",
+                "T13",
+                "T14",
+                "T15"
+            ]
+        },
+        "T09": {
+            "name": "Requirements Task 9",
+            "estimated_time": 4,
+            "dependencies": [
+                "T05"
+            ],
+            "cognitive_cost": 56,
+            "deadline": 18,
+            "skill_requirements": {
+                "analysis": 0.5962918563607023,
+                "writing": 0.5225740623960018
+            },
+            "combination_potential": [
+                "T06",
+                "T07",
+                "T08",
+                "T10",
+                "T11",
+                "T12",
+                "T13",
+                "T14",
+                "T15"
+            ]
+        },
+        "T10": {
+            "name": "Requirements Task 10",
+            "estimated_time": 6,
+            "dependencies": [
+                "T05"
+            ],
+            "cognitive_cost": 60,
+            "deadline": 19,
+            "skill_requirements": {
+                "analysis": 0.5055719682542169,
+                "writing": 0.6290929243079955
+            },
+            "combination_potential": [
+                "T06",
+                "T07",
+                "T08",
+                "T09",
+                "T11",
+                "T12",
+                "T13",
+                "T14",
+                "T15"
+            ]
+        },
+        "T11": {
+            "name": "Requirements Task 11",
+            "estimated_time": 6,
+            "dependencies": [
+                "T04"
+            ],
+            "cognitive_cost": 40,
+            "deadline": 20,
+            "skill_requirements": {
+                "analysis": 0.6205705703858192,
+                "writing": 0.6518956096239097
+            },
+            "combination_potential": [
+                "T06",
+                "T07",
+                "T08",
+                "T09",
+                "T10",
+                "T12",
+                "T13",
+                "T14",
+                "T15"
+            ]
+        },
+        "T12": {
+            "name": "Requirements Task 12",
+            "estimated_time": 4,
+            "dependencies": [
+                "T02"
+            ],
+            "cognitive_cost": 47,
+            "deadline": 19,
+            "skill_requirements": {
+                "analysis": 0.6586547598060749,
+                "writing": 0.6542825094090177
+            },
+            "combination_potential": [
+                "T06",
+                "T07",
+                "T08",
+                "T09",
+                "T10",
+                "T11",
+                "T13",
+                "T14",
+                "T15"
+            ]
+        },
+        "T13": {
+            "name": "Requirements Task 13",
+            "estimated_time": 5,
+            "dependencies": [
+                "T03"
+            ],
+            "cognitive_cost": 56,
+            "deadline": 18,
+            "skill_requirements": {
+                "analysis": 0.5686625744302098,
+                "writing": 0.6417930904283329
+            },
+            "combination_potential": [
+                "T06",
+                "T07",
+                "T08",
+                "T09",
+                "T10",
+                "T11",
+                "T12",
+                "T14",
+                "T15"
+            ]
+        },
+        "T14": {
+            "name": "Requirements Task 14",
+            "estimated_time": 5,
+            "dependencies": [
+                "T01"
+            ],
+            "cognitive_cost": 49,
+            "deadline": 18,
+            "skill_requirements": {
+                "analysis": 0.6914791131994393,
+                "writing": 0.6940607426507528
+            },
+            "combination_potential": [
+                "T06",
+                "T07",
+                "T08",
+                "T09",
+                "T10",
+                "T11",
+                "T12",
+                "T13",
+                "T15"
+            ]
+        },
+        "T15": {
+            "name": "Requirements Task 15",
+            "estimated_time": 5,
+            "dependencies": [
+                "T04"
+            ],
+            "cognitive_cost": 49,
+            "deadline": 19,
+            "skill_requirements": {
+                "analysis": 0.6053760877878259,
+                "writing": 0.6754446201108636
+            },
+            "combination_potential": [
+                "T06",
+                "T07",
+                "T08",
+                "T09",
+                "T10",
+                "T11",
+                "T12",
+                "T13",
+                "T14"
+            ]
+        },
+        "T16": {
+            "name": "Design Task 16",
+            "estimated_time": 7,
+            "dependencies": [
+                "T07"
+            ],
+            "cognitive_cost": 51,
+            "deadline": 25,
+            "skill_requirements": {
+                "design": 0.655196321355458,
+                "analysis": 0.5171352171398756
+            },
+            "combination_potential": [
+                "T17",
+                "T18",
+                "T19",
+                "T20",
+                "T21",
+                "T22",
+                "T23",
+                "T24",
+                "T25"
+            ]
+        },
+        "T17": {
+            "name": "Design Task 17",
+            "estimated_time": 5,
+            "dependencies": [
+                "T06"
+            ],
+            "cognitive_cost": 66,
+            "deadline": 29,
+            "skill_requirements": {
+                "design": 0.5755725313937395,
+                "analysis": 0.6859541750296562
+            },
+            "combination_potential": [
+                "T16",
+                "T18",
+                "T19",
+                "T20",
+                "T21",
+                "T22",
+                "T23",
+                "T24",
+                "T25"
+            ]
+        },
+        "T18": {
+            "name": "Design Task 18",
+            "estimated_time": 7,
+            "dependencies": [
+                "T12"
+            ],
+            "cognitive_cost": 51,
+            "deadline": 25,
+            "skill_requirements": {
+                "design": 0.6528737453911526,
+                "analysis": 0.666303666171796
+            },
+            "combination_potential": [
+                "T16",
+                "T17",
+                "T19",
+                "T20",
+                "T21",
+                "T22",
+                "T23",
+                "T24",
+                "T25"
+            ]
+        },
+        "T19": {
+            "name": "Design Task 19",
+            "estimated_time": 7,
+            "dependencies": [
+                "T07"
+            ],
+            "cognitive_cost": 58,
+            "deadline": 28,
+            "skill_requirements": {
+                "design": 0.542277713023529,
+                "analysis": 0.5041975821493804
+            },
+            "combination_potential": [
+                "T16",
+                "T17",
+                "T18",
+                "T20",
+                "T21",
+                "T22",
+                "T23",
+                "T24",
+                "T25"
+            ]
+        },
+        "T20": {
+            "name": "Design Task 20",
+            "estimated_time": 4,
+            "dependencies": [
+                "T07"
+            ],
+            "cognitive_cost": 60,
+            "deadline": 27,
+            "skill_requirements": {
+                "design": 0.5757708586640333,
+                "analysis": 0.6212199181665464
+            },
+            "combination_potential": [
+                "T16",
+                "T17",
+                "T18",
+                "T19",
+                "T21",
+                "T22",
+                "T23",
+                "T24",
+                "T25"
+            ]
+        },
+        "T21": {
+            "name": "Design Task 21",
+            "estimated_time": 5,
+            "dependencies": [
+                "T12"
+            ],
+            "cognitive_cost": 50,
+            "deadline": 30,
+            "skill_requirements": {
+                "design": 0.6254413722706258,
+                "analysis": 0.5566434657053466
+            },
+            "combination_potential": [
+                "T16",
+                "T17",
+                "T18",
+                "T19",
+                "T20",
+                "T22",
+                "T23",
+                "T24",
+                "T25"
+            ]
+        },
+        "T22": {
+            "name": "Design Task 22",
+            "estimated_time": 7,
+            "dependencies": [
+                "T12"
+            ],
+            "cognitive_cost": 50,
+            "deadline": 25,
+            "skill_requirements": {
+                "design": 0.6450066515744765,
+                "analysis": 0.6448481623985326
+            },
+            "combination_potential": [
+                "T16",
+                "T17",
+                "T18",
+                "T19",
+                "T20",
+                "T21",
+                "T23",
+                "T24",
+                "T25"
+            ]
+        },
+        "T23": {
+            "name": "Design Task 23",
+            "estimated_time": 7,
+            "dependencies": [
+                "T08"
+            ],
+            "cognitive_cost": 50,
+            "deadline": 30,
+            "skill_requirements": {
+                "design": 0.6583280327447424,
+                "analysis": 0.6870377552631153
+            },
+            "combination_potential": [
+                "T16",
+                "T17",
+                "T18",
+                "T19",
+                "T20",
+                "T21",
+                "T22",
+                "T24",
+                "T25"
+            ]
+        },
+        "T24": {
+            "name": "Design Task 24",
+            "estimated_time": 7,
+            "dependencies": [
+                "T12"
+            ],
+            "cognitive_cost": 67,
+            "deadline": 28,
+            "skill_requirements": {
+                "design": 0.5071841383750229,
+                "analysis": 0.6034607966169845
+            },
+            "combination_potential": [
+                "T16",
+                "T17",
+                "T18",
+                "T19",
+                "T20",
+                "T21",
+                "T22",
+                "T23",
+                "T25"
+            ]
+        },
+        "T25": {
+            "name": "Design Task 25",
+            "estimated_time": 6,
+            "dependencies": [
+                "T15"
+            ],
+            "cognitive_cost": 69,
+            "deadline": 25,
+            "skill_requirements": {
+                "design": 0.6994308753718257,
+                "analysis": 0.6675493400549036
+            },
+            "combination_potential": [
+                "T16",
+                "T17",
+                "T18",
+                "T19",
+                "T20",
+                "T21",
+                "T22",
+                "T23",
+                "T24"
+            ]
+        },
+        "T26": {
+            "name": "Implementation Task 26",
+            "estimated_time": 6,
+            "dependencies": [
+                "T23"
+            ],
+            "cognitive_cost": 65,
+            "deadline": 40,
+            "skill_requirements": {
+                "programming": 0.5561634697022745
+            },
+            "combination_potential": [
+                "T27",
+                "T28",
+                "T29",
+                "T30",
+                "T31",
+                "T32",
+                "T33",
+                "T34",
+                "T35"
+            ]
+        },
+        "T27": {
+            "name": "Implementation Task 27",
+            "estimated_time": 5,
+            "dependencies": [
+                "T16"
+            ],
+            "cognitive_cost": 78,
+            "deadline": 38,
+            "skill_requirements": {
+                "programming": 0.668676246054958
+            },
+            "combination_potential": [
+                "T26",
+                "T28",
+                "T29",
+                "T30",
+                "T31",
+                "T32",
+                "T33",
+                "T34",
+                "T35"
+            ]
+        },
+        "T28": {
+            "name": "Implementation Task 28",
+            "estimated_time": 5,
+            "dependencies": [
+                "T16"
+            ],
+            "cognitive_cost": 71,
+            "deadline": 37,
+            "skill_requirements": {
+                "programming": 0.5628373599695935
+            },
+            "combination_potential": [
+                "T26",
+                "T27",
+                "T29",
+                "T30",
+                "T31",
+                "T32",
+                "T33",
+                "T34",
+                "T35"
+            ]
+        },
+        "T29": {
+            "name": "Implementation Task 29",
+            "estimated_time": 7,
+            "dependencies": [
+                "T25"
+            ],
+            "cognitive_cost": 79,
+            "deadline": 36,
+            "skill_requirements": {
+                "programming": 0.5216073077350689
+            },
+            "combination_potential": [
+                "T26",
+                "T27",
+                "T28",
+                "T30",
+                "T31",
+                "T32",
+                "T33",
+                "T34",
+                "T35"
+            ]
+        },
+        "T30": {
+            "name": "Implementation Task 30",
+            "estimated_time": 6,
+            "dependencies": [
+                "T17"
+            ],
+            "cognitive_cost": 68,
+            "deadline": 39,
+            "skill_requirements": {
+                "programming": 0.6923105940602867
+            },
+            "combination_potential": [
+                "T26",
+                "T27",
+                "T28",
+                "T29",
+                "T31",
+                "T32",
+                "T33",
+                "T34",
+                "T35"
+            ]
+        },
+        "T31": {
+            "name": "Implementation Task 31",
+            "estimated_time": 6,
+            "dependencies": [
+                "T25"
+            ],
+            "cognitive_cost": 73,
+            "deadline": 39,
+            "skill_requirements": {
+                "programming": 0.6907465608734062
+            },
+            "combination_potential": [
+                "T26",
+                "T27",
+                "T28",
+                "T29",
+                "T30",
+                "T32",
+                "T33",
+                "T34",
+                "T35"
+            ]
+        },
+        "T32": {
+            "name": "Implementation Task 32",
+            "estimated_time": 5,
+            "dependencies": [
+                "T17"
+            ],
+            "cognitive_cost": 65,
+            "deadline": 40,
+            "skill_requirements": {
+                "programming": 0.6988697497100389
+            },
+            "combination_potential": [
+                "T26",
+                "T27",
+                "T28",
+                "T29",
+                "T30",
+                "T31",
+                "T33",
+                "T34",
+                "T35"
+            ]
+        },
+        "T33": {
+            "name": "Implementation Task 33",
+            "estimated_time": 6,
+            "dependencies": [
+                "T16"
+            ],
+            "cognitive_cost": 76,
+            "deadline": 39,
+            "skill_requirements": {
+                "programming": 0.6461095265953509
+            },
+            "combination_potential": [
+                "T26",
+                "T27",
+                "T28",
+                "T29",
+                "T30",
+                "T31",
+                "T32",
+                "T34",
+                "T35"
+            ]
+        },
+        "T34": {
+            "name": "Implementation Task 34",
+            "estimated_time": 5,
+            "dependencies": [
+                "T20"
+            ],
+            "cognitive_cost": 60,
+            "deadline": 39,
+            "skill_requirements": {
+                "programming": 0.5138854293723627
+            },
+            "combination_potential": [
+                "T26",
+                "T27",
+                "T28",
+                "T29",
+                "T30",
+                "T31",
+                "T32",
+                "T33",
+                "T35"
+            ]
+        },
+        "T35": {
+            "name": "Implementation Task 35",
+            "estimated_time": 6,
+            "dependencies": [
+                "T22"
+            ],
+            "cognitive_cost": 70,
+            "deadline": 40,
+            "skill_requirements": {
+                "programming": 0.5225011578583343
+            },
+            "combination_potential": [
+                "T26",
+                "T27",
+                "T28",
+                "T29",
+                "T30",
+                "T31",
+                "T32",
+                "T33",
+                "T34"
+            ]
+        },
+        "T36": {
+            "name": "Testing Task 36",
+            "estimated_time": 5,
+            "dependencies": [
+                "T28"
+            ],
+            "cognitive_cost": 55,
+            "deadline": 45,
+            "skill_requirements": {
+                "testing": 0.5227377237271952,
+                "programming": 0.621982920727687
+            },
+            "combination_potential": [
+                "T37",
+                "T38",
+                "T39",
+                "T40",
+                "T41",
+                "T42",
+                "T43",
+                "T44",
+                "T45"
+            ]
+        },
+        "T37": {
+            "name": "Testing Task 37",
+            "estimated_time": 4,
+            "dependencies": [
+                "T35"
+            ],
+            "cognitive_cost": 48,
+            "deadline": 50,
+            "skill_requirements": {
+                "testing": 0.618010612319014,
+                "programming": 0.5548816083221668
+            },
+            "combination_potential": [
+                "T36",
+                "T38",
+                "T39",
+                "T40",
+                "T41",
+                "T42",
+                "T43",
+                "T44",
+                "T45"
+            ]
+        },
+        "T38": {
+            "name": "Testing Task 38",
+            "estimated_time": 5,
+            "dependencies": [
+                "T26"
+            ],
+            "cognitive_cost": 53,
+            "deadline": 49,
+            "skill_requirements": {
+                "testing": 0.6466015146076374,
+                "programming": 0.6624253060171115
+            },
+            "combination_potential": [
+                "T36",
+                "T37",
+                "T39",
+                "T40",
+                "T41",
+                "T42",
+                "T43",
+                "T44",
+                "T45"
+            ]
+        },
+        "T39": {
+            "name": "Testing Task 39",
+            "estimated_time": 6,
+            "dependencies": [
+                "T30"
+            ],
+            "cognitive_cost": 55,
+            "deadline": 46,
+            "skill_requirements": {
+                "testing": 0.5613238609974818,
+                "programming": 0.5534915276467459
+            },
+            "combination_potential": [
+                "T36",
+                "T37",
+                "T38",
+                "T40",
+                "T41",
+                "T42",
+                "T43",
+                "T44",
+                "T45"
+            ]
+        },
+        "T40": {
+            "name": "Testing Task 40",
+            "estimated_time": 5,
+            "dependencies": [
+                "T33"
+            ],
+            "cognitive_cost": 49,
+            "deadline": 46,
+            "skill_requirements": {
+                "testing": 0.6051264464328898,
+                "programming": 0.6628979524985849
+            },
+            "combination_potential": [
+                "T36",
+                "T37",
+                "T38",
+                "T39",
+                "T41",
+                "T42",
+                "T43",
+                "T44",
+                "T45"
+            ]
+        },
+        "T41": {
+            "name": "Testing Task 41",
+            "estimated_time": 3,
+            "dependencies": [
+                "T29"
+            ],
+            "cognitive_cost": 41,
+            "deadline": 49,
+            "skill_requirements": {
+                "testing": 0.5523947656946178,
+                "programming": 0.5930966518728709
+            },
+            "combination_potential": [
+                "T36",
+                "T37",
+                "T38",
+                "T39",
+                "T40",
+                "T42",
+                "T43",
+                "T44",
+                "T45"
+            ]
+        },
+        "T42": {
+            "name": "Testing Task 42",
+            "estimated_time": 6,
+            "dependencies": [
+                "T27"
+            ],
+            "cognitive_cost": 41,
+            "deadline": 48,
+            "skill_requirements": {
+                "testing": 0.6138927279536509,
+                "programming": 0.5678745974967708
+            },
+            "combination_potential": [
+                "T36",
+                "T37",
+                "T38",
+                "T39",
+                "T40",
+                "T41",
+                "T43",
+                "T44",
+                "T45"
+            ]
+        },
+        "T43": {
+            "name": "Testing Task 43",
+            "estimated_time": 3,
+            "dependencies": [
+                "T33"
+            ],
+            "cognitive_cost": 42,
+            "deadline": 48,
+            "skill_requirements": {
+                "testing": 0.5884149741905186,
+                "programming": 0.6340855370612627
+            },
+            "combination_potential": [
+                "T36",
+                "T37",
+                "T38",
+                "T39",
+                "T40",
+                "T41",
+                "T42",
+                "T44",
+                "T45"
+            ]
+        },
+        "T44": {
+            "name": "Testing Task 44",
+            "estimated_time": 3,
+            "dependencies": [
+                "T33"
+            ],
+            "cognitive_cost": 51,
+            "deadline": 46,
+            "skill_requirements": {
+                "testing": 0.5249757167027991,
+                "programming": 0.5601079269479514
+            },
+            "combination_potential": [
+                "T36",
+                "T37",
+                "T38",
+                "T39",
+                "T40",
+                "T41",
+                "T42",
+                "T43",
+                "T45"
+            ]
+        },
+        "T45": {
+            "name": "Testing Task 45",
+            "estimated_time": 4,
+            "dependencies": [
+                "T31"
+            ],
+            "cognitive_cost": 41,
+            "deadline": 48,
+            "skill_requirements": {
+                "testing": 0.692954507863963,
+                "programming": 0.5527222771760524
+            },
+            "combination_potential": [
+                "T36",
+                "T37",
+                "T38",
+                "T39",
+                "T40",
+                "T41",
+                "T42",
+                "T43",
+                "T44"
+            ]
+        },
+        "T46": {
+            "name": "Documentation Task 46",
+            "estimated_time": 4,
+            "dependencies": [
+                "T36"
+            ],
+            "cognitive_cost": 46,
+            "deadline": 55,
+            "skill_requirements": {
+                "documentation": 0.6968906659655998,
+                "writing": 0.5590865014130711
+            },
+            "combination_potential": [
+                "T47",
+                "T48",
+                "T49",
+                "T50"
+            ]
+        },
+        "T47": {
+            "name": "Documentation Task 47",
+            "estimated_time": 4,
+            "dependencies": [
+                "T37"
+            ],
+            "cognitive_cost": 42,
+            "deadline": 57,
+            "skill_requirements": {
+                "documentation": 0.6435187426409738,
+                "writing": 0.6587582622179342
+            },
+            "combination_potential": [
+                "T46",
+                "T48",
+                "T49",
+                "T50"
+            ]
+        },
+        "T48": {
+            "name": "Documentation Task 48",
+            "estimated_time": 5,
+            "dependencies": [
+                "T44"
+            ],
+            "cognitive_cost": 48,
+            "deadline": 56,
+            "skill_requirements": {
+                "documentation": 0.6953713573899583,
+                "writing": 0.6425239261226503
+            },
+            "combination_potential": [
+                "T46",
+                "T47",
+                "T49",
+                "T50"
+            ]
+        },
+        "T49": {
+            "name": "Documentation Task 49",
+            "estimated_time": 3,
+            "dependencies": [
+                "T44"
+            ],
+            "cognitive_cost": 50,
+            "deadline": 55,
+            "skill_requirements": {
+                "documentation": 0.5674525292904394,
+                "writing": 0.6338252719114903
+            },
+            "combination_potential": [
+                "T46",
+                "T47",
+                "T48",
+                "T50"
+            ]
+        },
+        "T50": {
+            "name": "Documentation Task 50",
+            "estimated_time": 2,
+            "dependencies": [
+                "T38"
+            ],
+            "cognitive_cost": 42,
+            "deadline": 55,
+            "skill_requirements": {
+                "documentation": 0.5509471727286833,
+                "writing": 0.6129400123733121
+            },
+            "combination_potential": [
+                "T46",
+                "T47",
+                "T48",
+                "T49"
+            ]
+        }
+    }
+}

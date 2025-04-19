@@ -1,0 +1,7 @@
+{
+    "name": "Natural Computing PlugIn",
+    "description": "This plug in give the agent a tool to use if a user want to equally split the tasks between different students or working partners based on their availability, skills and workload",
+    "author": "Francesco Murgioni",
+    "version": "1.0.0",
+    "entry_point": "ga_main.py"
+}
